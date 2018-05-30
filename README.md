@@ -7,7 +7,7 @@ const x = casey
   .case(2, "two")
   .case(3, "three")
   .default("not found")
-  .find(2) // x = "two"
+  .match(2) // x = "two"
 ```
 ```js
 const y = casey
@@ -15,7 +15,7 @@ const y = casey
   .case(v => v === 2, () => "two")
   .case(v => v === 3, () => "three")
   .default(() => "not found")
-  .find(3) // y = "three"
+  .match(3) // y = "three"
 ```
 ```js
 const a = 5
@@ -25,5 +25,5 @@ const z = casey
   .case(a === 3, "three")
   .case(true, "other number")
   .default("not found")
-  .find() // z = "other number"
+  .match() // z = "other number"
 ```
