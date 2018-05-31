@@ -1,0 +1,31 @@
+{
+  "name": "casey",
+  "version": "0.0.0",
+  "description": "A javascript functional approach to switch and if-else statements",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theweirdscience/casey.git"
+  },
+  "keywords": [
+    "casey",
+    "case",
+    "switch",
+    "if",
+    "else"
+  ],
+  "author": "Merten van Gerven <merten@theweirdscience.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theweirdscience/casey/issues"
+  },
+  "homepage": "https://github.com/theweirdscience/casey#readme",
+  "devDependencies": {
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4"
+  }
+}
