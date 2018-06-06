@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,15 @@
   },
   "homepage": "https://github.com/theweirdscience/casey#readme",
   "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^23.1.0",
+    "ts-jest": "^22.4.6",
     "webpack": "^4.10.2",
     "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {
+    "ts-node": "^6.0.5",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.1"
   }
 }
