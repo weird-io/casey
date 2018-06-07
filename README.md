@@ -2,6 +2,8 @@
 
 A javascript functional approach to switch and if-else statements
 
+[![Build Status](https://travis-ci.org/theweirdscience/casey.svg?branch=master)](https://travis-ci.org/theweirdscience/casey)
+
 ## Installation
 
 ```
