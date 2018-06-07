@@ -36,5 +36,11 @@
     "typescript": "^2.9.1",
     "ts-node": "^6.0.5"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "jest": {
+    "testEnvironment": "node",
+    "modulePathIgnorePatterns": [
+      "<rootDir>/dist"
+    ]
+  }
 }
