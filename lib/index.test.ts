@@ -6,7 +6,7 @@ describe("Casey simple", () => {
     .case(2, "two")
     .case(3, "three")
     .case(4, "four")
-    .case(v => v !== undefined, "many")
+    .case((v: any) => v !== undefined, "many")
     .default("unknown");
 
   const tests = [
