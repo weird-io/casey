@@ -1,8 +1,10 @@
+[![Build Status](https://travis-ci.org/theweirdscience/casey.svg?branch=master)](https://travis-ci.org/theweirdscience/casey)
+[![Coverage Status](https://coveralls.io/repos/github/theweirdscience/casey/badge.svg?branch=master)](https://coveralls.io/github/theweirdscience/casey?branch=master)
+
 # casey
 
 A javascript functional approach to switch and if-else statements
 
-[![Build Status](https://travis-ci.org/theweirdscience/casey.svg?branch=master)](https://travis-ci.org/theweirdscience/casey)
 
 ## Installation
 
