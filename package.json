@@ -1,7 +1,8 @@
 {
-  "name": "casey",
-  "version": "0.0.0",
+  "name": "@theweirdscience/casey",
+  "version": "1.0.0",
   "description": "A javascript functional approach to switch and if-else statements",
+  "access": "public",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

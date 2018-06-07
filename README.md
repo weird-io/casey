@@ -5,9 +5,9 @@ A javascript functional approach to switch and if-else statements
 ## Installation
 
 ```
-npm install --save casey
+npm install --save @theweirdscience/casey
 # or
-yarn add casey
+yarn add @theweirdscience/casey
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ yarn add casey
 You can always start by importing the module
 
 ```js
-import casey from "casey";
+import casey from "@theweirdscience/casey";
 ```
 
 Simple usage allows you to provide direct mappings from a condition value to a desired resulting value. An optional `default` may be provided for when there is no explicit match using strict `===` comparison.
