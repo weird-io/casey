@@ -26,7 +26,7 @@ describe("Casey simple", () => {
     expect(t.match(null)).toBe("many");
   });
   it(`should return "unknown" for value 'undefined'`, () => {
-    expect(t.match(undefined)).toBe("foobar");
+    expect(t.match(undefined)).toBe("unknown");
   });
   it(`should return "unknown" for no value`, () => {
     expect(t.match()).toBe("unknown");
@@ -34,7 +34,7 @@ describe("Casey simple", () => {
 });
 
 describe("Casey default first", () => {
-  const value: number = 4;
+  const value: number = null;
   const t = casey
     .default("unknown")
     .case(value === 1, () => "one")
@@ -43,6 +43,6 @@ describe("Casey default first", () => {
     .case(value === 4, () => "four");
 
   it(`should return "unknown" for value 'null'`, () => {
-    expect(t.match(null)).toBe("unknown");
+    expect(t.match(value)).toBe("unknown");
   });
 });
