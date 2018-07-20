@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A javascript functional approach to switch and if-else statements",
   "access": "public",
-  "main": "dist/index.js",
+  "main": "dist/es5.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
