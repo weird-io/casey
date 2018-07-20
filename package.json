@@ -1,6 +1,6 @@
 {
   "name": "@theweirdscience/casey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A javascript functional approach to switch and if-else statements",
   "access": "public",
   "main": "dist/es5.js",
